@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mail-operator-fbc-component
     spec:
       containers:
-      - image: quay.io/lmendes/user-workload:OA7by-mail-operator-fbc-component
+      - image: quay.io/lmendes/user-workload@sha256:61c0c24f9dda4e45e8f2b148f738e21852b0d8e00a087f4dc4c089b29a6baf0a
         imagePullPolicy: Always
         name: container-image
         resources:
